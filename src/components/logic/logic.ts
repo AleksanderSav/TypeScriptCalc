@@ -136,5 +136,5 @@ const bannerFn: IbannerFn = (
   return new constructor(width, height, count, text, prices);
 };
 
-const testBanner = bannerFn(1, 3, 1, "test", prices, BannerOrder);
+const testBanner = bannerFn(2, 3, 1, "test", prices, BannerOrder);
 console.log(testBanner);
